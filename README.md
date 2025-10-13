@@ -39,4 +39,3 @@ The implementation follows a real-world DevOps workflow integrating **Amazon ECR
 
 ---
 
-ker push $REPOSITORY_URI:latest
