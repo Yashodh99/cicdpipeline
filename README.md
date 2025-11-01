@@ -30,7 +30,7 @@ The implementation follows a real-world DevOps workflow integrating **Amazon ECR
 
 ---
 
-## 🏗️ Pipeline Flow
+##  Pipeline Flow
 1. **Code Commit (GitHub)** → Push changes to main branch  
 2. **CodeBuild** → Automatically triggered, builds Docker image, and pushes to ECR  
 3. **ECS Task Definition** → References the latest image from ECR  
